@@ -1,0 +1,353 @@
+/* 公共样式 */
+.middle {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* 公共样式 */
+
+/* 头部样式开始了 */
+.top {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.topBox {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    align-items: center;
+}
+
+.top-img {
+    height: 100%;
+}
+
+.nav {
+    width: 324px;
+    margin-left: 60px;
+}
+
+.nav a {
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    color: black;
+    font-size: 18px;
+    margin: 0 20px;
+    padding: 0 8px;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+.search {
+    position: relative;
+    width: 412px;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.search input {
+    width: 361px;
+    height: 42px;
+    font-size: 14px;
+    border: 1px solid #00a4ff;
+    color: #bfbfbf;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.search button {
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    border: none;
+    border-color: #00a4ff;
+    background: url(../image/btn.png);
+    top: 0;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.user img {
+    margin-right: 5px;
+}
+
+/* 头部样式结束了 */
+
+/* banner样式开始了 */
+.banner {
+    height: 421px;
+    background-color: #1c036c;
+}
+
+.bg-img {
+    background: url(../image/banner2.png) no-repeat;
+}
+
+.banner-box {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banner-list {
+    width: 190px;
+    height: 100%;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.thelist {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.thelist:hover {
+    /* 手指样式 */
+    cursor: pointer;
+    color: #00a4ff;
+}
+
+.course {
+    width: 230px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.course h2 {
+    height: 48px;
+    font-size: 18px;
+    background-color: #9bceea;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.course-box {
+    padding: 0 20px;
+}
+
+.course-list {
+    width: 190px;
+    height: 66px;
+    padding: 14px 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.course-list h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 700;
+}
+
+.course-list p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.banner-button {
+    width: 190px;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid #22b0ff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    color: #22b0ff;
+}
+
+/* banner样式结束了 */
+/* 内容样式开始了 */
+.content {
+    height: 675px;
+}
+
+.goods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.goods-list {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.goods-list h3 {
+    margin: 0px 30px;
+    color: #00a4ff;
+    font-size: 16px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.goods-cation {
+    line-height: 60px;
+}
+
+.goods-cation a {
+    font-size: 16px;
+    border-left: 1px solid #bfbfbf;
+    padding: 0px 30px;
+    color: #050505;
+}
+
+.up-interest {
+    margin-right: 30px;
+    color: #00a4ff;
+    font-size: 14px;
+}
+
+.boutique {
+    margin-top: 30px;
+    height: 45px;
+}
+
+.boutique-title {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.boutique-title h3 {
+    color: #494949;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.boutique-title a {
+    color: #5a5a5a;
+    font-size: 12px;
+    margin: 10px 30px 0px 0px;
+}
+
+.boutique-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 228px;
+    height: 270px;
+    margin: 0px 15px 15px 0px;
+    background-color: #fff;
+}
+
+.item-img {
+    position: relative;
+}
+
+.hot {
+    position: absolute;
+    top: 5px;
+    right: -4px;
+}
+
+.item-title {
+    margin: 20px 20px;
+    font-size: 14px;
+    color: #050505;
+}
+
+.item-info {
+    font-size: 12px;
+    color: #999;
+    margin: 0 20px 20px 20px;
+}
+
+.item-info>span {
+    color: #ff7c2d;
+    padding-right: 2px;
+}
+
+/* 去除多余的外边距 */
+.item:nth-child(5),
+.item:nth-child(10) {
+    margin-right: 0;
+}
+
+/* 内容样式结束了 */
+/* 底部样式开始了 */
+.bottom {
+    height: 415px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.bottom-left {
+    width: 432px;
+}
+.bottom-right{
+    display: flex;
+    justify-content: flex-start;
+    width: 540px;
+}
+.bottom-img {
+    width: 192px;
+    height: 45px;
+}
+
+.bottom-left>p {
+    color: #666;
+    font-size: 12px;
+    margin: 20px 0px 15px 0;
+}
+
+.bottom-left>a {
+    display: inline-block;
+    width: 120px;
+    height: 33px;
+    font-size: 16px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 33px;
+    color: #00a4ff;
+}
+
+.bottom-item{
+    margin-left: 100px;
+}
+
+.bottom-item h3{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.bottom-item p>a{
+    color: #333;
+    font-size: 12px;
+}
+
+/* 底部样式结束了 */
