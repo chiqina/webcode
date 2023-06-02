@@ -1,0 +1,21 @@
+git提交代码缓存区
+git add .
+添加提交的代码备注
+git commit -m "提交代码"
+将代码上传到远程仓库上
+git push
+更新远程代码到本地
+git pull
+创建分支
+git branch  分支名称
+查看所有分支 
+git branch -a
+切换分支
+git checkout 分支名称
+删除远程分支
+git push origin -d 
+合并分支
+git merge 需要合并的分支
+指定与远程同名的分支
+git push -u origin
+
