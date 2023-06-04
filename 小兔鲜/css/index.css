@@ -1,0 +1,28 @@
+/* 头部导航栏样式开始了 */
+.top-nav{
+    background-color: #333;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 53px;
+    box-sizing: border-box;
+}
+.icon-phone{
+    font-size: 14px;
+}
+.nav-list a{
+    padding: 0 15px;
+    font-size:14px ;
+    line-height: 1;
+    color:#cdcdcd ;
+    border-right: 2px solid #666;
+}
+.nav-list a:last-of-type{
+     border-right: 0;
+} 
+.nav-list a:hover{
+    color: #27ba9b;
+}
+/* 头部导航栏样式结束了 */
