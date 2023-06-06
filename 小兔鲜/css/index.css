@@ -26,3 +26,69 @@
     color: #27ba9b;
 }
 /* 头部导航栏样式结束了 */
+/* 头部导航栏开始了 */
+.header{
+    height: 132px;
+    background-color: #fff;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    height: 132px;
+}
+.header-img{
+    width: 200px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 820px;
+    padding-left: 40px;
+}
+.navlist{
+    position: relative;
+}
+.navlist >a{
+    color: #333;
+}
+.nav-details{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 1200px;
+    height: 0;
+    overflow: hidden;
+    /* 透明级别 */
+    opacity:0; 
+    /* height: 132px; */
+    padding: 0 70px;
+    top: 56px;
+    left: -341px;
+    background: #fff;
+    /* 获取虚影 */
+    box-shadow: 0 0 5px #ccc;
+    /* 动画效果，以多少秒展示 */
+    transition: all .2s .1s;
+}
+.nav-details a{
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+}
+.nav-details a img{
+    width: 60px;
+}
+.nav-details a p{
+    color: #333;
+    font-size: 14px;
+}
+.navlist>a:hover{
+    color: #27ba9b;
+}
+.navlist>a:hover+.nav-details{
+    color: red;
+    height: 132px;
+    opacity: 1;
+}
+/* 头部导航栏结束了 */
