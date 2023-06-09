@@ -42,7 +42,9 @@
 .header-nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 820px;
+    height: 32px;
     padding-left: 40px;
 }
 .navlist{
@@ -90,5 +92,14 @@
     color: red;
     height: 132px;
     opacity: 1;
+}
+.search{
+    width: 170px;
+    height: 32px;
+    line-height: 32px;
+}
+.search input{
+    font-size: 14px;
+    color: #666;
 }
 /* 头部导航栏结束了 */
